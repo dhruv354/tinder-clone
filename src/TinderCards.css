@@ -1,0 +1,10 @@
+.card {
+  position: relative;
+  background-color: #fff;
+  max-width: 85vh;
+  width: 600px;
+  padding: 20px;
+  height: 50vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
