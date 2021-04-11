@@ -5,6 +5,27 @@
   width: 600px;
   padding: 20px;
   height: 50vh;
-  object-fit: cover;
+  object-fit: contain;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 18 53 0 rgba(0, 0, 0, 0.3);
+}
+
+.tindercards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.swipe {
+  position: absolute;
+}
+
+.card h3 {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  margin: 10px;
 }

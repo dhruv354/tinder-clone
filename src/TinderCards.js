@@ -11,7 +11,7 @@ function TinderCards() {
     },
     {
       name: "Shakrukh Khan",
-      url: "",
+      url: "https://static.toiimg.com/photo/msid-69902898/69902898.jpg?115506",
     },
   ]);
 
