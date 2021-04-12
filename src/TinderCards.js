@@ -5,17 +5,18 @@ import axios from "./axios";
 
 function TinderCards() {
   //useState hook to manage state
-  const [people, setPeople] = useState([]);
-  //   {
-  //     name: "Sachin Tendulkar",
-  //     url:
-  //       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJrTa7Oxf39xMTdlSo-JwzUYVFVWKo7nZCw&usqp=CAU",
-  //   },
-  //   {
-  //     name: "Shakrukh Khan",
-  //     url: "https://static.toiimg.com/photo/msid-69902898/69902898.jpg?115506",
-  //   },
-  // ]);
+  const [people, setPeople] = useState([
+    {
+      name: "Sachin Tendulkar",
+      imgURL:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJrTa7Oxf39xMTdlSo-JwzUYVFVWKo7nZCw&usqp=CAU",
+    },
+    {
+      name: "Shakrukh Khan",
+      imgURL:
+        "https://static.toiimg.com/photo/msid-69902898/69902898.jpg?115506",
+    },
+  ]);
 
   //utility functions
 
